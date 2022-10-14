@@ -6,7 +6,6 @@ function setup() {
 }
 
 function draw() {
-    text("Made by Dhruv ❤️");
   noStroke()
   fill(random(colorlist));
   ellipse(mouseX, mouseY, 25, 25);
